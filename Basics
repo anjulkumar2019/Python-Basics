@@ -1,0 +1,71 @@
+Basic Datatypes 
+  Integers (default for numbers) 
+    z = 5 / 2 # Answer is 2, integer division. 
+  Floats 
+    x = 3.456 
+  Strings
+    a="Anjul Kumar"
+  we can use "" or '' to specify. “abc” ‘abc’ (Same thing.) 
+  Use triple double-quotes for multi-line strings or strings than contain both ‘ and “ inside of them: “““a‘b“c””” 
+
+Whitespace are meaningful in Python: especially indentation and placement of newlines. 
+
+Comments 
+  Start comments with # – the rest of line is ignored. 
+  Can include a “documentation string” as the first line of any new function or class that you define. 
+  The development environment, debugger, and other tools use it: it’s good style to include one. 
+
+def my_function(x, y): 
+“““This is the docstring. This function does blah blah blah.””” 
+# The code would go here... 
+
+
+Naming Rules 
+Names are case sensitive and cannot start with a number. They can contain letters, numbers, and underscores. 
+  For Example: bob Bob _bob _2_bob_ bob_2 BoB 
+There are some reserved words: 
+  and, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, 
+  if, import, in, is, lambda, not, or, pass, print, raise, return, try, and while 
+  
+Sequence Types 
+1. Tuple 
+  a. A simple immutable ordered sequence of items 
+  b. Items can be of mixed types, including collection types 
+
+2. Strings 
+  a. Immutable 
+  b. Conceptually very much like a tuple 
+
+3. List 
+  a. Mutable ordered sequence of items of mixed types 
+
+
+
+
+Program 1.
+          x = 34 - 23 
+          y = "Hello"
+          z = 3.45 
+          if z == 3.45 or y == "Hello": 
+              x = x + 1 
+              y = y + " World"
+          print(x) 
+          print(y) 
+
+ x,y, and z are integer, string, and float variables 
+ Output: 12 
+         Hello World
+
+Explanation:
+Assignment uses = and comparison uses ==. 
+For numbers + - * / % are addition, subtraction, multiplication, division, and modulus. 
+Special use of + for string concatenation. 
+Logical operators are words (and, or, not) not symbols 
+The basic printing command is print. 
+The first assignment to a variable creates it. 
+Variable types don’t need to be declared. 
+Python figures out the variable types on its own. 
+
+
+
+
